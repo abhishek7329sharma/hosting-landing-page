@@ -386,12 +386,13 @@ img[alt="fab-icon"] {
   margin: 0;
   margin-top: 10px;
 }
+
 .left-last-container,
 .right-last-container {
   padding: 0 20px;
 }
 .left-last-container {
-  padding-right: 600px;
+  padding-right: 60px;
 }
 
 .last-button {
@@ -457,4 +458,192 @@ div-customer-avatar {
 .customer-designation {
   color: #202e51;
   font-size: 12px;
+}
+.handburger {
+  display: none;
+  fill: rgba(9, 192, 248, 1);
+}
+
+.left-last-container > h1 {
+  font-size: 48px;
+}
+
+@media screen and (max-width: 900px) {
+  .items {
+    display: none;
+  }
+  .container {
+    font-family: "Roboto", sans-serif;
+    padding: 0 45px;
+  }
+  img[alt="data-img"] {
+    width: 407px;
+  }
+  .handburger {
+    display: inline-flex;
+    fill: rgba(9, 192, 248, 1);
+    margin-left: 20px;
+    width: 30px;
+  }
+
+  .section-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 100px;
+  }
+  h1.f-title {
+    font-size: 40px;
+    font-weight: 900;
+  }
+  .service {
+    padding: 0 0px;
+  }
+
+  .card {
+    display: flex;
+    padding: 0 60px;
+    gap: 110px;
+    padding-top: 50px;
+    background-clip: content-box;
+    flex-wrap: wrap;
+  }
+
+  .card-price {
+    box-shadow: rgb(0 0 0 / 7%) 0px 1px 2px, rgb(0 0 0 / 7%) 0px 2px 4px,
+      rgb(0 0 0 / 7%) 0px 4px 8px, rgb(0 0 0 / 7%) 0px 8px 16px,
+      rgb(0 0 0 / 7%) 0px 16px 32px, rgb(0 0 0 / 7%) 0px 32px 64px;
+    background-color: #fff;
+    /* padding: 30px 35px; */
+    border-radius: 10px;
+    width: 100%;
+  }
+  .card-price {
+    box-shadow: rgb(0 0 0 / 7%) 0px 1px 2px, rgb(0 0 0 / 7%) 0px 2px 4px,
+      rgb(0 0 0 / 7%) 0px 4px 8px, rgb(0 0 0 / 7%) 0px 8px 16px,
+      rgb(0 0 0 / 7%) 0px 16px 32px, rgb(0 0 0 / 7%) 0px 32px 64px;
+    background-color: #fff;
+    /* padding: 30px 35px; */
+    border-radius: 10px;
+    width: 100%;
+    text-align: center;
+  }
+  .price-detail {
+    display: flex;
+    gap: 10px;
+    margin: 27px 0;
+    justify-content: center;
+  }
+  .price-display {
+    margin-top: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .left-last-container {
+    padding-right: 0px;
+  }
+  .customer-review {
+    padding: 60px 61px;
+    font-family: "Roboto", sans-serif;
+  }
+  .top {
+    display: flex;
+    padding: 22px 62px;
+  }
+  .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 604px) {
+  .link-boxes {
+    display: flex;
+    padding: 22px 18px;
+    gap: 100px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  .input-box {
+    width: inherit;
+  }
+
+  .last-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 40px;
+    text-align: center;
+  }
+
+  .customer-review {
+    padding: 30px 15px;
+    font-family: "Roboto", sans-serif;
+  }
+  .price {
+    background: rgb(9, 192, 248);
+    background: linear-gradient(
+      122deg,
+      rgba(9, 192, 248, 1) 0%,
+      rgba(7, 152, 242, 1) 96%,
+      rgba(9, 192, 248, 1) 100%
+    );
+    padding: 45px 0px;
+    margin: 0px 23px;
+  }
+  .services {
+    display: flex;
+    gap: 17px;
+    padding: 35px 0px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .section-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    flex-direction: column;
+    align-items: center;
+    gap: 38px;
+  }
+  .first-left-container,
+  .service {
+    text-align: center;
+  }
+
+  .card {
+    display: flex;
+    padding: 0 44px;
+    gap: 47px;
+    padding-top: 50px;
+    background-clip: content-box;
+    flex-wrap: wrap;
+  }
+
+  .customer-message > p {
+    padding: 0px 70px;
+    color: #9da3b3;
+    /* font-weight: 600; */
+    font-size: 18px;
+  }
+
+  .customer-message > h1 {
+    font-size: 35px;
+  }
+
+  .customer-card-container {
+    display: flex;
+    gap: 15px;
+    margin-top: 30px;
+  }
+
+  .left-last-container > h1 {
+    font-size: 36px;
+  }
 }
